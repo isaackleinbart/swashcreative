@@ -7,338 +7,343 @@
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
         <script type="text/javascript">
             
+            
       WebFont.load({
         google: {
           families: ["Montserrat:300,600,"]
         }
       });
-      </script>
-      <style type="text/css"> 
-body {
-    margin: 0;
-}
+      
+        </script>
+        <style type="text/css">
+            body {
+                margin: 0;
+            }
 
-svg:not(:root) {
-    overflow: hidden;
-}
+            svg:not(:root) {
+                overflow: hidden;
+            }
 
-input,
-textarea {
-    color: inherit;
-    font: inherit;
-    margin: 0;
-}
+            input, textarea {
+                color: inherit;
+                font: inherit;
+                margin: 0;
+            }
 
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-}
+            input::-moz-focus-inner {
+                border: 0;
+                padding: 0;
+            }
 
-input {
-    line-height: normal;
-}
+            input {
+                line-height: normal;
+            }
 
-textarea {
-    overflow: auto;
-}
+            textarea {
+                overflow: auto;
+            }
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+            * {
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
 
-body {
-    margin: 0;
-    min-height: 100%;
-    background-color: #fff;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    color: #333;
-}
+            body {
+                margin: 0;
+                min-height: 100%;
+                background-color: #fff;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                line-height: 20px;
+                color: #333;
+            }
 
-html.w-mod-touch * {
-    background-attachment: scroll!important;
-}
+            html.w-mod-touch * {
+                background-attachment: scroll!important;
+            }
 
-.w-button {
-    display: inline-block;
-    padding: 9px 15px;
-    background-color: #3898EC;
-    color: white;
-    border: 0;
-    line-height: inherit;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 0;
-}
+            .w-button {
+                display: inline-block;
+                padding: 9px 15px;
+                background-color: #3898EC;
+                color: white;
+                border: 0;
+                line-height: inherit;
+                text-decoration: none;
+                cursor: pointer;
+                border-radius: 0;
+            }
 
-input.w-button {
-    -webkit-appearance: button;
-}
+            input.w-button {
+                -webkit-appearance: button;
+            }
 
-p {
-    margin-top: 0;
-    margin-bottom: 10px;
-}
+            p {
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
 
-.w-embed:before,
-.w-embed:after {
-    content: " ";
-    display: table;
-}
+            .w-embed:before, .w-embed:after {
+                content: " ";
+                display: table;
+            }
 
-.w-embed:after {
-    clear: both;
-}
+            .w-embed:after {
+                clear: both;
+            }
 
-.w-form {
-    margin: 0 0 15px;
-}
+            .w-form {
+                margin: 0 0 15px;
+            }
 
-.w-form-done {
-    display: none;
-    padding: 20px;
-    text-align: center;
-    background-color: #dddddd;
-}
+            .w-form-done {
+                display: none;
+                padding: 20px;
+                text-align: center;
+                background-color: #dddddd;
+            }
 
-.w-form-fail {
-    display: none;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #ffdede;
-}
+            .w-form-fail {
+                display: none;
+                margin-top: 10px;
+                padding: 10px;
+                background-color: #ffdede;
+            }
 
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
 
-.w-input {
-    display: block;
-    width: 100%;
-    height: 38px;
-    padding: 8px 12px;
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333333;
-    vertical-align: middle;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-}
+            .w-input {
+                display: block;
+                width: 100%;
+                height: 38px;
+                padding: 8px 12px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                line-height: 1.42857143;
+                color: #333333;
+                vertical-align: middle;
+                background-color: #ffffff;
+                border: 1px solid #cccccc;
+            }
 
-.w-input:-moz-placeholder {
-    color: #999;
-}
+            .w-input:-moz-placeholder {
+                color: #999;
+            }
 
-.w-input::-moz-placeholder {
-    color: #999;
-    opacity: 1;
-}
+            .w-input::-moz-placeholder {
+                color: #999;
+                opacity: 1;
+            }
 
-.w-input:-ms-input-placeholder {
-    color: #999;
-}
+            .w-input:-ms-input-placeholder {
+                color: #999;
+            }
 
-.w-input::-webkit-input-placeholder {
-    color: #999;
-}
+            .w-input::-webkit-input-placeholder {
+                color: #999;
+            }
 
-.w-input:focus {
-    border-color: #3898EC;
-    outline: 0;
-}
+            .w-input:focus {
+                border-color: #3898EC;
+                outline: 0;
+            }
 
-textarea.w-input {
-    height: auto;
-}
+            textarea.w-input {
+                height: auto;
+            }
 
-.w-container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 940px;
-}
+            .w-container {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 940px;
+            }
 
-.w-container:before,
-.w-container:after {
-    content: " ";
-    display: table;
-}
+            .w-container:before, .w-container:after {
+                content: " ";
+                display: table;
+            }
 
-.w-container:after {
-    clear: both;
-}
+            .w-container:after {
+                clear: both;
+            }
 
-@media screen and (max-width:991px) {
-    .w-container {
-        max-width: 728px;
-    }
-}
+            @media screen and (max-width: 991px) {
+                .w-container {
+                    max-width: 728px;
+                }
+            }
 
-@media screen and (max-width:479px) {
-    .w-container {
-        max-width: none;
-    }
-}
+            @media screen and (max-width: 479px) {
+                .w-container {
+                    max-width: none;
+                }
+            }
 
-body {
-    background-color: #000;
-    font-family: Montserrat, sans-serif;
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-}
+            body {
+                background-color: #000;
+                font-family: Montserrat, sans-serif;
+                color: #fff;
+                font-size: 16px;
+                line-height: 24px;
+            }
 
-p {
-    margin-bottom: 70px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #fff;
-    font-size: 17px;
-    line-height: 29px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
+            p {
+                margin-bottom: 70px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #fff;
+                font-size: 17px;
+                line-height: 29px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
 
-form {
-    padding: 15px;
-    background-color: #fff;
-    color: #000;
-}
+            form {
+                padding: 15px;
+                background-color: #fff;
+                color: #000;
+            }
 
-.text-block {
-    display: inline-block;
-    margin-top: 50px;
-    float: right;
-    font-size: 1.5rem;
-    line-height: 1.1em;
-    font-weight: 600;
-    text-align: left;
-    text-transform: uppercase;
-}
+            .text-block {
+                display: inline-block;
+                margin-top: 50px;
+                float: right;
+                font-size: 1.5rem;
+                line-height: 1.1em;
+                font-weight: 600;
+                text-align: left;
+                text-transform: uppercase;
+            }
 
-.logo {
-    display: inline-block;
-    width: 250px;
-    margin-top: 25px;
-}
+            .logo {
+                display: inline-block;
+                width: 250px;
+                margin-top: 25px;
+            }
 
-.header {
-    margin-bottom: 75px;
-}
+            .header {
+                margin-bottom: 75px;
+            }
 
-.text-field {
-    height: 50px;
-    padding: 20px;
-    background-color: #000;
-    color: #fff;
-}
+            .text-field {
+                height: 50px;
+                padding: 20px;
+                background-color: #000;
+                color: #fff;
+            }
 
-.text-field::-webkit-input-placeholder {
-    color: hsla(0, 0%, 100%, .7);
-    font-size: 13px;
-    text-transform: uppercase;
-}
+            .text-field::-webkit-input-placeholder {
+                color: hsla(0, 0%, 100%, .7);
+                font-size: 13px;
+                text-transform: uppercase;
+            }
 
-.text-field:-ms-input-placeholder {
-    color: hsla(0, 0%, 100%, .7);
-    font-size: 13px;
-    text-transform: uppercase;
-}
+            .text-field:-ms-input-placeholder {
+                color: hsla(0, 0%, 100%, .7);
+                font-size: 13px;
+                text-transform: uppercase;
+            }
 
-.text-field::placeholder {
-    color: hsla(0, 0%, 100%, .7);
-    font-size: 13px;
-    text-transform: uppercase;
-}
+            .text-field::placeholder {
+                color: hsla(0, 0%, 100%, .7);
+                font-size: 13px;
+                text-transform: uppercase;
+            }
 
-.text-field.text-area {
-    height: 150px;
-}
+            .text-field.text-area {
+                height: 150px;
+            }
 
-.field-label {
-    font-weight: 600;
-    text-transform: uppercase;
-}
+            .field-label {
+                font-weight: 600;
+                text-transform: uppercase;
+            }
 
-.submit-button {
-    display: block;
-    width: 100%;
-    margin-top: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 1px solid #000;
-    background-color: #000;
-    -webkit-transition: background-color 350ms ease, color 350ms ease;
-    transition: background-color 350ms ease, color 350ms ease;
-    text-align: center;
-    text-transform: uppercase;
-}
+            .submit-button {
+                display: block;
+                width: 100%;
+                margin-top: 15px;
+                margin-right: auto;
+                margin-left: auto;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border: 1px solid #000;
+                background-color: #000;
+                -webkit-transition: background-color 350ms ease, color 350ms ease;
+                transition: background-color 350ms ease, color 350ms ease;
+                text-align: center;
+                text-transform: uppercase;
+            }
 
-.submit-button:hover {
-    background-color: #fff;
-    color: #000;
-}
+            .submit-button:hover {
+                background-color: #fff;
+                color: #000;
+            }
 
-.container {
-    margin-bottom: 50px;
-}
+            .container {
+                margin-bottom: 50px;
+            }
 
-@media (max-width: 991px) {
-    body {
-        padding-right: 25px;
-        padding-left: 25px;
-    }
-}
+            @media (max-width: 991px) {
+                body {
+                    padding-right: 25px;
+                    padding-left: 25px;
+                }
+            }
 
-@media (max-width: 767px) {
-    .text-block {
-        margin-top: 60px;
-        font-size: 0.8rem;
-    }
-}
+            @media (max-width: 767px) {
+                .text-block {
+                    margin-top: 60px;
+                    font-size: 0.8rem;
+                }
+            }
 
-@media (max-width: 479px) {
-    body {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    p {
-        font-size: 12px;
-    }
-    .text-block {
-        display: block;
-        margin-top: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        float: none;
-        text-align: center;
-    }
-    .logo {
-        display: block;
-        width: 200px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .header {
-        margin-bottom: 50px;
-    }
-    .field-label {
-        margin-top: 15px;
-        margin-bottom: 0px;
-        font-size: 14px;
-        text-align: center;
-    }
-    .submit-button {
-        font-size: 14px;
-    }
-}
-</style>
+            @media (max-width: 479px) {
+                body {
+                    padding-right: 15px;
+                    padding-left: 15px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                .text-block {
+                    display: block;
+                    margin-top: 15px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    float: none;
+                    text-align: center;
+                }
+
+                .logo {
+                    display: block;
+                    width: 200px;
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+
+                .header {
+                    margin-bottom: 50px;
+                }
+
+                .field-label {
+                    margin-top: 15px;
+                    margin-bottom: 0px;
+                    font-size: 14px;
+                    text-align: center;
+                }
+
+                .submit-button {
+                    font-size: 14px;
+                }
+            }
+        </style>
     </head>
     <body>
         <div class="header w-container">
@@ -352,6 +357,7 @@ form {
         <div class="container w-container">
             <p>
                 Swash is a creative agency delivering physical and digital BRand Identities. <br/>Our expertise is real estate and consumer goods industries.
+
             </p>
             <div class="w-form">
                 <form id="wf-form-Swash-Contact-Form" name="wf-form-Swash-Contact-Form" data-name="Swash Contact Form" method="post" action="https://formspree.io/your@email.com">
